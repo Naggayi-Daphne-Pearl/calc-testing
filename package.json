@@ -1,0 +1,22 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f @cucumber/pretty-formatter --format html:cucumber-test.html", 
+     "test:calc": "cucumber-js calc-features -r calc-definitions"
+  },
+  "keywords": [],
+  "author": "daphne",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.3.0",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "selenium-webdriver": "^4.2.0"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0-alpha.2"
+  }
+}
